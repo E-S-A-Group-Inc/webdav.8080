@@ -1,0 +1,2786 @@
+200211 18:55:38.748 [INFO][711..init(with:)] Log started, build: 4.5.6be62884
+200211 18:55:38.767 [INFO][711.Tunnel.startTunnel] Tunnel started with options: ["ServerAddress": cloudflare-dns.com, "match-hostname": p42-buy.itunes.apple.com, "is-on-demand": 1, "VendorData": {
+    "captive_portal_detection_url" = "https://cp.cloudflare.com";
+    "configuration_version" = 1911252200;
+    "dns_logs_enabled" = 1;
+    "dns_protocol" = auto;
+    "domains_always_resolved_using_fallback_resolvers" =     (
+        "ipv4only.arpa",
+        "cp.cloudflare.com",
+        "orbilogin.com",
+        "orbilogin.net",
+        "routerlogin.net",
+        wpad,
+        local,
+        localhost,
+        "home.arpa",
+        invalid,
+        onion,
+        test,
+        lan,
+        intranet,
+        internal,
+        private,
+        home,
+        corp,
+        "10.in-addr.arpa",
+        "16.172.in-addr.arpa",
+        "17.172.in-addr.arpa",
+        "18.172.in-addr.arpa",
+        "19.172.in-addr.arpa",
+        "20.172.in-addr.arpa",
+        "21.172.in-addr.arpa",
+        "22.172.in-addr.arpa",
+        "23.172.in-addr.arpa",
+        "24.172.in-addr.arpa",
+        "25.172.in-addr.arpa",
+        "26.172.in-addr.arpa",
+        "27.172.in-addr.arpa",
+        "28.172.in-addr.arpa",
+        "29.172.in-addr.arpa",
+        "30.172.in-addr.arpa",
+        "31.172.in-addr.arpa",
+        "168.192.in-addr.arpa",
+        "0.in-addr.arpa",
+        "127.in-addr.arpa",
+        "254.169.in-addr.arpa",
+        "2.0.192.in-addr.arpa",
+        "100.51.198.in-addr.arpa",
+        "113.0.203.in-addr.arpa",
+        "255.255.255.255.in-addr.arpa",
+        "64.100.in-addr.arpa",
+        "65.100.in-addr.arpa",
+        "66.100.in-addr.arpa",
+        "67.100.in-addr.arpa",
+        "68.100.in-addr.arpa",
+        "69.100.in-addr.arpa",
+        "70.100.in-addr.arpa",
+        "71.100.in-addr.arpa",
+        "72.100.in-addr.arpa",
+        "73.100.in-addr.arpa",
+        "74.100.in-addr.arpa",
+        "75.100.in-addr.arpa",
+        "76.100.in-addr.arpa",
+        "77.100.in-addr.arpa",
+        "78.100.in-addr.arpa",
+        "79.100.in-addr.arpa",
+        "80.100.in-addr.arpa",
+        "81.100.in-addr.arpa",
+        "82.100.in-addr.arpa",
+        "83.100.in-addr.arpa",
+        "84.100.in-addr.arpa",
+        "85.100.in-addr.arpa",
+        "86.100.in-addr.arpa",
+        "87.100.in-addr.arpa",
+        "88.100.in-addr.arpa",
+        "89.100.in-addr.arpa",
+        "90.100.in-addr.arpa",
+        "91.100.in-addr.arpa",
+        "92.100.in-addr.arpa",
+        "93.100.in-addr.arpa",
+        "94.100.in-addr.arpa",
+        "95.100.in-addr.arpa",
+        "96.100.in-addr.arpa",
+        "97.100.in-addr.arpa",
+        "98.100.in-addr.arpa",
+        "99.100.in-addr.arpa",
+        "100.100.in-addr.arpa",
+        "101.100.in-addr.arpa",
+        "102.100.in-addr.arpa",
+        "103.100.in-addr.arpa",
+        "104.100.in-addr.arpa",
+        "105.100.in-addr.arpa",
+        "106.100.in-addr.arpa",
+        "107.100.in-addr.arpa",
+        "108.100.in-addr.arpa",
+        "109.100.in-addr.arpa",
+        "110.100.in-addr.arpa",
+        "111.100.in-addr.arpa",
+        "112.100.in-addr.arpa",
+        "113.100.in-addr.arpa",
+        "114.100.in-addr.arpa",
+        "115.100.in-addr.arpa",
+        "116.100.in-addr.arpa",
+        "117.100.in-addr.arpa",
+        "118.100.in-addr.arpa",
+        "119.100.in-addr.arpa",
+        "120.100.in-addr.arpa",
+        "121.100.in-addr.arpa",
+        "122.100.in-addr.arpa",
+        "123.100.in-addr.arpa",
+        "124.100.in-addr.arpa",
+        "125.100.in-addr.arpa",
+        "126.100.in-addr.arpa",
+        "127.100.in-addr.arpa",
+        "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "d.f.ip6.arpa",
+        "8.e.f.ip6.arpa",
+        "9.e.f.ip6.arpa",
+        "a.e.f.ip6.arpa",
+        "b.e.f.ip6.arpa",
+        "8.b.d.0.1.0.0.2.ip6.arpa"
+    );
+    "nonexistent_domains" =     (
+        "nonexistent.cloudflare.com"
+    );
+    "tunnel_mode" = 1;
+    "unsupported_cellular_networks" =     (
+                {
+            mcc = 302;
+            mnc = 720;
+            name = Rogers;
+        },
+                {
+            mcc = 302;
+            mnc = 370;
+            name = fido;
+        }
+    );
+    "use_fallback_resolvers_for_non_existent_domains" = 1;
+    "warp_config" =     {
+        clientId = Isrj;
+        excludeList =         (
+                        {
+                name = LAN;
+                networks =                 {
+                    v4 =                     (
+                                                {
+                            address = "10.0.0.0";
+                            netmask = "255.0.0.0";
+                        },
+                                                {
+                            address = "100.64.0.0";
+                            netmask = "255.192.0.0";
+                        },
+                                                {
+                            address = "169.254.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "172.16.0.0";
+                            netmask = "255.240.0.0";
+                        },
+                                                {
+                            address = "192.0.0.0";
+                            netmask = "255.255.255.0";
+                        },
+                                                {
+                            address = "192.168.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "224.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "240.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "255.255.255.255";
+                            netmask = "255.255.255.255";
+                        }
+                    );
+                    v6 =                     (
+                    );
+                };
+                visible = 0;
+            }
+        );
+        interface =         {
+            addresses =             {
+                v4 = "172.16.0.2";
+                v6 = "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc";
+            };
+        };
+        peers =         (
+                        {
+                endpoint =                 {
+                    host = "engage.cloudflareclient.com:2408";
+                    v4 = "162.159.192.9:2408";
+                    v6 = "[2606:4700:d0::a29f:c009]:2408";
+                };
+                publicKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+            }
+        );
+        services =         {
+            httpProxy = "172.16.0.1:2480";
+        };
+    };
+    "warp_config_hash" = 81c8010876d4eb4e529db92791317ee8;
+    "warp_enabled" = 1;
+    "warp_update_build_number" = 1911252200;
+}, "AuthMethod": Password]
+200211 18:55:38.769 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 18:55:38.769 [INFO][711.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200211 18:55:38.769 [INFO][711.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200211 18:55:38.777 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-02-11 16:59:50 +0000, routingId: [34, 202, 227], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.9:2408", v6: "[2606:4700:d0::a29f:c009]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200211 18:55:38.778 [INFO][711.Tunnel.startTunnel] Configuration age: 115.8 minutes
+200211 18:55:38.778 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 18:55:38.778 [INFO][711.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200211 18:55:38.778 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 18:55:38.778 [INFO][711.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200211 18:55:38.779 [INFO][711.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200211 18:55:38.793 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 18:55:38.794 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 18:55:38.794 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 18:55:38.794 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 18:55:38.794 [INFO][711.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: fc0d0838-1942-4e7a-9733-2a53f04845a3 - Public Key: c82c83d9ba7e1638c3d57e7a5e6aa5fe17c9c00c78ae052a1b094c156c778266 - Warp: true - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200211 18:55:38.797 [INFO][711.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200211 18:55:39.220 [INFO][711.Tunnel.waitForPathSatisfied] path updated ...
+200211 18:55:39.221 [INFO][711.Tunnel.updateSettingsAndConnect] path is satisfied
+200211 18:55:39.224 [INFO][711.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 64FA8AD1-784F-42F7-A530-3CFAE792C05D
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 23
+    interfaceOption = en0 : 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 11
+        mtu = 1500
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {192.168.1.1:0
+        },
+        {24.108.164.60:0
+        },
+    )
+    dnsSearchDomains = (
+        MyRouter,
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+            description = MultiStack
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 4DE414BB-C6C9-F05F-7764-06536A6FE7B9
+            description = ProxyAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 5C883CD9-C071-FCAE-9F5B-DDDDB793BC0D
+            description = DNSAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = NetworkExtension
+            type = SessionManager
+            UUID = D4DCF250-6843-477F-846E-F26042957FDA
+            description = NetworkExtension: SessionManager
+            isActive = NO
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = YES
+            isSpecificUseOnly = NO
+            isNetworkProvider = YES
+            isNexusProvider = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200211 18:55:39.227 [INFO][711.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200211 18:55:39.228 [INFO][711.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200211 18:55:45.254 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:55:45.775 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:55:46.323 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:55:46.324 [INFO][711.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): Captive portal detected
+200211 18:55:52.331 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:55:52.839 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:55:53.424 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:55:53.425 [INFO][711.NetworkInfo.collectNetworkInfo] Captive portal status (2nd attempt): Captive portal detected
+200211 18:55:53.447 [INFO][711.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200211 18:55:53.461 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 18:55:53.467 [INFO][711.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot_worker.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: nil, accountType: _1dot1dot1dot_worker.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-02-11 16:59:50 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200211 18:55:53.484 [ERROR][711.Tunnel.updateNetwork] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 18:55:53.484 [ERROR][711.Tunnel.updateSettingsAndConnect] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 18:56:26.440 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:56:32.446 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:56:32.967 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:56:33.449 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:57:04.510 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:57:10.515 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:57:11.038 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:57:11.584 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:57:44.570 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:57:50.578 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:57:51.112 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:57:51.661 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:58:24.626 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:58:30.633 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:58:31.140 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:58:31.644 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:59:04.570 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:59:10.576 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:59:11.089 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:59:11.578 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 18:59:44.576 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 18:59:50.579 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 18:59:51.090 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 18:59:51.610 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 19:00:24.570 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 19:00:30.579 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 19:00:31.125 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 19:00:31.621 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 19:01:04.572 [INFO][711.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 19:01:04.738 [INFO][711.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200211 19:01:04.739 [ERROR][711.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 19:01:06.084 [INFO][725..init(with:)] Log started, build: 4.5.6be62884
+200211 19:01:06.204 [INFO][725.Tunnel.startTunnel] Tunnel started with options: ["VendorData": {
+    "captive_portal_detection_url" = "https://cp.cloudflare.com";
+    "configuration_version" = 1911252200;
+    "dns_logs_enabled" = 1;
+    "dns_protocol" = auto;
+    "domains_always_resolved_using_fallback_resolvers" =     (
+        "ipv4only.arpa",
+        "cp.cloudflare.com",
+        "orbilogin.com",
+        "orbilogin.net",
+        "routerlogin.net",
+        wpad,
+        local,
+        localhost,
+        "home.arpa",
+        invalid,
+        onion,
+        test,
+        lan,
+        intranet,
+        internal,
+        private,
+        home,
+        corp,
+        "10.in-addr.arpa",
+        "16.172.in-addr.arpa",
+        "17.172.in-addr.arpa",
+        "18.172.in-addr.arpa",
+        "19.172.in-addr.arpa",
+        "20.172.in-addr.arpa",
+        "21.172.in-addr.arpa",
+        "22.172.in-addr.arpa",
+        "23.172.in-addr.arpa",
+        "24.172.in-addr.arpa",
+        "25.172.in-addr.arpa",
+        "26.172.in-addr.arpa",
+        "27.172.in-addr.arpa",
+        "28.172.in-addr.arpa",
+        "29.172.in-addr.arpa",
+        "30.172.in-addr.arpa",
+        "31.172.in-addr.arpa",
+        "168.192.in-addr.arpa",
+        "0.in-addr.arpa",
+        "127.in-addr.arpa",
+        "254.169.in-addr.arpa",
+        "2.0.192.in-addr.arpa",
+        "100.51.198.in-addr.arpa",
+        "113.0.203.in-addr.arpa",
+        "255.255.255.255.in-addr.arpa",
+        "64.100.in-addr.arpa",
+        "65.100.in-addr.arpa",
+        "66.100.in-addr.arpa",
+        "67.100.in-addr.arpa",
+        "68.100.in-addr.arpa",
+        "69.100.in-addr.arpa",
+        "70.100.in-addr.arpa",
+        "71.100.in-addr.arpa",
+        "72.100.in-addr.arpa",
+        "73.100.in-addr.arpa",
+        "74.100.in-addr.arpa",
+        "75.100.in-addr.arpa",
+        "76.100.in-addr.arpa",
+        "77.100.in-addr.arpa",
+        "78.100.in-addr.arpa",
+        "79.100.in-addr.arpa",
+        "80.100.in-addr.arpa",
+        "81.100.in-addr.arpa",
+        "82.100.in-addr.arpa",
+        "83.100.in-addr.arpa",
+        "84.100.in-addr.arpa",
+        "85.100.in-addr.arpa",
+        "86.100.in-addr.arpa",
+        "87.100.in-addr.arpa",
+        "88.100.in-addr.arpa",
+        "89.100.in-addr.arpa",
+        "90.100.in-addr.arpa",
+        "91.100.in-addr.arpa",
+        "92.100.in-addr.arpa",
+        "93.100.in-addr.arpa",
+        "94.100.in-addr.arpa",
+        "95.100.in-addr.arpa",
+        "96.100.in-addr.arpa",
+        "97.100.in-addr.arpa",
+        "98.100.in-addr.arpa",
+        "99.100.in-addr.arpa",
+        "100.100.in-addr.arpa",
+        "101.100.in-addr.arpa",
+        "102.100.in-addr.arpa",
+        "103.100.in-addr.arpa",
+        "104.100.in-addr.arpa",
+        "105.100.in-addr.arpa",
+        "106.100.in-addr.arpa",
+        "107.100.in-addr.arpa",
+        "108.100.in-addr.arpa",
+        "109.100.in-addr.arpa",
+        "110.100.in-addr.arpa",
+        "111.100.in-addr.arpa",
+        "112.100.in-addr.arpa",
+        "113.100.in-addr.arpa",
+        "114.100.in-addr.arpa",
+        "115.100.in-addr.arpa",
+        "116.100.in-addr.arpa",
+        "117.100.in-addr.arpa",
+        "118.100.in-addr.arpa",
+        "119.100.in-addr.arpa",
+        "120.100.in-addr.arpa",
+        "121.100.in-addr.arpa",
+        "122.100.in-addr.arpa",
+        "123.100.in-addr.arpa",
+        "124.100.in-addr.arpa",
+        "125.100.in-addr.arpa",
+        "126.100.in-addr.arpa",
+        "127.100.in-addr.arpa",
+        "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "d.f.ip6.arpa",
+        "8.e.f.ip6.arpa",
+        "9.e.f.ip6.arpa",
+        "a.e.f.ip6.arpa",
+        "b.e.f.ip6.arpa",
+        "8.b.d.0.1.0.0.2.ip6.arpa"
+    );
+    "nonexistent_domains" =     (
+        "nonexistent.cloudflare.com"
+    );
+    "tunnel_mode" = 1;
+    "unsupported_cellular_networks" =     (
+                {
+            mcc = 302;
+            mnc = 720;
+            name = Rogers;
+        },
+                {
+            mcc = 302;
+            mnc = 370;
+            name = fido;
+        }
+    );
+    "use_fallback_resolvers_for_non_existent_domains" = 1;
+    "warp_config" =     {
+        clientId = Isrj;
+        excludeList =         (
+                        {
+                name = LAN;
+                networks =                 {
+                    v4 =                     (
+                                                {
+                            address = "10.0.0.0";
+                            netmask = "255.0.0.0";
+                        },
+                                                {
+                            address = "100.64.0.0";
+                            netmask = "255.192.0.0";
+                        },
+                                                {
+                            address = "169.254.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "172.16.0.0";
+                            netmask = "255.240.0.0";
+                        },
+                                                {
+                            address = "192.0.0.0";
+                            netmask = "255.255.255.0";
+                        },
+                                                {
+                            address = "192.168.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "224.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "240.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "255.255.255.255";
+                            netmask = "255.255.255.255";
+                        }
+                    );
+                    v6 =                     (
+                    );
+                };
+                visible = 0;
+            }
+        );
+        interface =         {
+            addresses =             {
+                v4 = "172.16.0.2";
+                v6 = "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc";
+            };
+        };
+        peers =         (
+                        {
+                endpoint =                 {
+                    host = "engage.cloudflareclient.com:2408";
+                    v4 = "162.159.192.9:2408";
+                    v6 = "[2606:4700:d0::a29f:c009]:2408";
+                };
+                publicKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+            }
+        );
+        services =         {
+            httpProxy = "172.16.0.1:2480";
+        };
+    };
+    "warp_config_hash" = 81c8010876d4eb4e529db92791317ee8;
+    "warp_enabled" = 1;
+    "warp_update_build_number" = 1911252200;
+}, "is-on-demand": 1, "match-hostname": imap.gmail.com, "AuthMethod": Password, "ServerAddress": cloudflare-dns.com]
+200211 19:01:06.205 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 19:01:06.205 [INFO][725.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200211 19:01:06.205 [INFO][725.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200211 19:01:06.213 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-02-11 16:59:50 +0000, routingId: [34, 202, 227], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.9:2408", v6: "[2606:4700:d0::a29f:c009]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200211 19:01:06.213 [INFO][725.Tunnel.startTunnel] Configuration age: 121.3 minutes
+200211 19:01:06.214 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:01:06.214 [INFO][725.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200211 19:01:06.214 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:01:06.214 [INFO][725.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200211 19:01:06.214 [INFO][725.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200211 19:01:06.223 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 19:01:06.223 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 19:01:06.224 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:01:06.224 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:01:06.225 [INFO][725.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: fc0d0838-1942-4e7a-9733-2a53f04845a3 - Public Key: c82c83d9ba7e1638c3d57e7a5e6aa5fe17c9c00c78ae052a1b094c156c778266 - Warp: true - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200211 19:01:06.231 [INFO][725.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200211 19:01:06.811 [INFO][725.Tunnel.waitForPathSatisfied] path updated ...
+200211 19:01:06.812 [INFO][725.Tunnel.updateSettingsAndConnect] path is satisfied
+200211 19:01:06.815 [INFO][725.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = B749CAFE-5005-4909-8064-1DDD2A4C68EA
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 351
+    interfaceOption = en0 : 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 11
+        mtu = 1500
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {192.168.1.1:0
+        },
+        {24.108.164.60:0
+        },
+    )
+    dnsSearchDomains = (
+        MyRouter,
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+            description = MultiStack
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 4DE414BB-C6C9-F05F-7764-06536A6FE7B9
+            description = ProxyAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 5C883CD9-C071-FCAE-9F5B-DDDDB793BC0D
+            description = DNSAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = NetworkExtension
+            type = SessionManager
+            UUID = D4DCF250-6843-477F-846E-F26042957FDA
+            description = NetworkExtension: SessionManager
+            isActive = NO
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = YES
+            isSpecificUseOnly = NO
+            isNetworkProvider = YES
+            isNexusProvider = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200211 19:01:06.816 [INFO][725.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200211 19:01:06.817 [INFO][725.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200211 19:01:06.914 [INFO][725.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200211 19:01:06.914 [INFO][725.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): ok
+200211 19:01:06.916 [INFO][725.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200211 19:01:06.944 [INFO][725.LogExtension.networkInfo] Cellular: [3 SE, MCC: 240, MNC: 02] - WiFi: [#Telia-523150 2c:79:d7:52:31:57] - NAT64: false - DNS search domains: ["MyRouter"] - Path DNS servers: ["192.168.1.1", "24.108.164.60"]
+200211 19:01:06.945 [INFO][725.Tunnel.updateNetwork] network settings created: {
+    tunnelRemoteAddress = ::1
+    DNSSettings = {
+        server = (
+            192.0.2.2,
+            192.0.2.3,
+            2001:db8:1111::2,
+            2001:db8:1111::3,
+        )
+        matchDomains = (
+            ,
+        )
+        matchDomainsNoSearch = NO
+    }
+    IPv4Settings = {
+        configMethod = PPP
+        addresses = (
+            192.0.2.1,
+        )
+        subnetMasks = (
+            255.255.255.255,
+        )
+        includedRoutes = (
+            {
+                destinationAddress = 0.0.0.0
+                destinationSubnetMask = 0.0.0.0
+            },
+        )
+        excludedRoutes = (
+            {
+                destinationAddress = 192.0.2.1
+                destinationSubnetMask = 255.255.255.255
+            },
+            {
+                destinationAddress = 10.0.0.0
+                destinationSubnetMask = 255.0.0.0
+            },
+            {
+                destinationAddress = 100.64.0.0
+                destinationSubnetMask = 255.192.0.0
+            },
+            {
+                destinationAddress = 169.254.0.0
+                destinationSubnetMask = 255.255.0.0
+            },
+            {
+                destinationAddress = 172.16.0.0
+                destinationSubnetMask = 255.240.0.0
+            },
+            {
+                destinationAddress = 192.0.0.0
+                destinationSubnetMask = 255.255.255.0
+            },
+            {
+                destinationAddress = 192.168.0.0
+                destinationSubnetMask = 255.255.0.0
+            },
+            {
+                destinationAddress = 224.0.0.0
+                destinationSubnetMask = 240.0.0.0
+            },
+            {
+                destinationAddress = 240.0.0.0
+                destinationSubnetMask = 240.0.0.0
+            },
+            {
+                destinationAddress = 255.255.255.255
+                destinationSubnetMask = 255.255.255.255
+            },
+        )
+        overridePrimary = NO
+    }
+    IPv6Settings = {
+        configMethod = automatic
+        addresses = (
+            fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc,
+        )
+        networkPrefixLengths = (
+            120,
+        )
+        includedRoutes = (
+            {
+                destinationAddress = ::
+                destinationNetworkPrefixLength = 0
+            },
+        )
+        excludedRoutes = (
+            {
+                destinationAddress = fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc
+                destinationNetworkPrefixLength = 128
+            },
+        )
+    }
+    MTU = 1280
+}
+200211 19:01:07.050 [INFO][725.Tunnel.updateNetwork] settings successfully applied
+200211 19:01:07.050 [INFO][725.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 19:01:07.052 [INFO][725.DNS.dnsOverWarpResolvers] DNS over Warp; ["162.159.36.1", "162.159.46.1", "2606:4700:4700::1111", "2606:4700:4700::1001"]
+200211 19:01:07.052 [INFO][725.DNS.updateResolvers] Path DNS; ["192.168.1.1", "24.108.164.60"]
+200211 19:01:07.052 [INFO][725.Tunnel.warpConnect] Warp: connecting
+200211 19:01:07.059 [INFO][725.LogExtension.networkInfo] Cellular: [3 SE, MCC: 240, MNC: 02] - WiFi: [#Telia-523150 2c:79:d7:52:31:57] - Path DNS servers: ["192.168.1.1", "24.108.164.60"]
+200211 19:01:07.062 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs sessions created
+200211 19:01:07.064 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer registered for IPv6
+200211 19:01:07.065 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - is viable
+200211 19:01:07.065 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv6 state changed to: UDPSessionStateWaiting (The session is waiting for better conditions before attempting to make the session ready))
+200211 19:01:07.065 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Path - status: satisfied, expensive: false, ipv4: true, ipv6: false
+200211 19:01:07.065 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer registered for IPv4
+200211 19:01:07.072 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:01:07.073 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - send OK
+200211 19:01:07.084 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - received reply
+200211 19:01:07.084 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:01:07.084 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339101 <--> 4b4601
+200211 19:01:07.085 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339101
+200211 19:01:07.085 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:01:07.105 [INFO][725.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer for IPv4 won the race
+200211 19:01:07.106 [INFO][725.WarpLegacyUDPSession.logLocalEndpoint] Warp: 192.168.1.65:49233 --> 162.159.192.9:2408
+200211 19:01:07.106 [INFO][725.WarpLegacyUDPSession.logLocalEndpoint] Warp: Connected to 162.159.192.9:2408 using local endpoint 192.168.1.65:49233 over wifi interface
+200211 19:01:07.107 [INFO][725.Warp.startWireGuardTimer] Warp: Timer started
+200211 19:01:07.847 [INFO][725.Warp.logStats] Warp: stats - rx:104 KB;tx:14 KB;rtt:12ms;loss:0.0%
+200211 19:01:30.218 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.220425009727478
+200211 19:01:30.219 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:01:30.236 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:01:30.236 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339102 <--> 4b4602
+200211 19:01:30.237 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339102
+200211 19:01:30.237 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:01:30.631 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:01:54.702 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.070983052253723
+200211 19:01:54.703 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:01:54.721 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:01:54.721 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339103 <--> 4b4603
+200211 19:01:54.722 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339103
+200211 19:01:54.722 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:01:55.231 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:02:07.669 [INFO][725.Warp.logStats] Warp: stats - rx:145.5 MB;tx:1.9 MB;rtt:18ms;loss:0.099814855%
+200211 19:02:19.786 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.555086970329285
+200211 19:02:19.788 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:02:19.799 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:02:19.799 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339104 <--> 4b4604
+200211 19:02:19.800 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339104
+200211 19:02:19.800 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:02:20.180 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:02:43.282 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:03:07.706 [INFO][725.Warp.logStats] Warp: stats - rx:293.1 MB;tx:4.2 MB;rtt:11ms;loss:0.4169466%
+200211 19:03:07.707 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.424636006355286
+200211 19:03:07.707 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:03:07.718 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:03:07.718 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339105 <--> 4b4605
+200211 19:03:07.719 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339105
+200211 19:03:07.719 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:03:08.155 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:03:31.816 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:03:55.617 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:04:03.222 [INFO][725.DNSOverUDPResolver.addQuery] Duplicate query: id: 39542; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:04:03.232 [ERROR][725.DNSOverUDPResolver.handleDnsResponse] Error Domain=_1dot1dot1dot_worker.UDPResolverError Code=0 "queryNotFoundForResponse" (code 0)
+200211 19:04:06.629 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339101
+200211 19:04:07.734 [INFO][725.Warp.logStats] Warp: stats - rx:293.2 MB;tx:4.3 MB;rtt:11ms;loss:0.13672367%
+200211 19:04:19.661 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.04329800605774
+200211 19:04:19.661 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:04:19.673 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:04:19.673 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339106 <--> 4b4606
+200211 19:04:19.674 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339106
+200211 19:04:19.674 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:04:20.191 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:04:30.720 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339102
+200211 19:04:43.333 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:04:54.338 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339103
+200211 19:05:07.314 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:05:07.730 [INFO][725.Warp.logStats] Warp: stats - rx:293.4 MB;tx:4.4 MB;rtt:12ms;loss:0.031059064%
+200211 19:05:19.753 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339104
+200211 19:05:27.349 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:05:31.331 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:05:51.222 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:05:55.762 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:06:07.280 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339105
+200211 19:06:07.678 [INFO][725.Warp.logStats] Warp: stats - rx:293.4 MB;tx:4.4 MB;rtt:12ms;loss:0.0%
+200211 19:06:19.350 [INFO][725.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_AFTER_TIME (on send))
+200211 19:06:19.351 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:06:19.368 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:06:19.369 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339107 <--> 4b4607
+200211 19:06:19.369 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339107
+200211 19:06:19.369 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:06:19.705 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:06:43.240 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:07:07.336 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.095636010169983
+200211 19:07:07.337 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:07:07.354 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:07:07.355 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339108 <--> 4b4608
+200211 19:07:07.355 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339108
+200211 19:07:07.355 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:07:07.701 [INFO][725.Warp.logStats] Warp: stats - rx:293.4 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:07:07.701 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:07:19.310 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339106
+200211 19:07:31.342 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:07:44.853 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:07:55.332 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:08:07.654 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:08:19.784 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.45150899887085
+200211 19:08:19.785 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:08:19.803 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:08:19.803 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c339109 <--> 4b4609
+200211 19:08:19.804 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c339109
+200211 19:08:19.804 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:08:20.137 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:08:43.323 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:09:03.645 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:09:07.774 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:09:07.775 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:09:19.296 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339107
+200211 19:09:27.338 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:09:31.327 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:09:51.789 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:09:55.294 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:10:07.335 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339108
+200211 19:10:07.621 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:10:15.640 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:10:19.274 [INFO][725.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_AFTER_TIME (on send))
+200211 19:10:19.275 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:10:19.292 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:10:19.293 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c33910a <--> 4b460a
+200211 19:10:19.293 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c33910a
+200211 19:10:19.293 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:10:19.751 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:10:43.287 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:11:07.668 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:11:07.668 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.38095796108246
+200211 19:11:07.669 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:11:07.686 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:11:07.686 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c33910b <--> 4b460b
+200211 19:11:07.687 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c33910b
+200211 19:11:07.687 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:11:08.335 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:11:19.223 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c339109
+200211 19:11:27.274 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:11:32.357 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:11:51.713 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:11:56.850 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:12:07.857 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:18ms;loss:0.0%
+200211 19:12:15.287 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:12:20.329 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:12:38.357 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:12:44.343 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:13:03.815 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:13:07.244 [INFO][725.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_AFTER_TIME (on send))
+200211 19:13:07.246 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:13:07.263 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:13:07.263 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c33910c <--> 4b460c
+200211 19:13:07.266 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c33910c
+200211 19:13:07.266 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:13:07.658 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:19ms;loss:0.0%
+200211 19:13:08.614 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:13:19.767 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c33910a
+200211 19:13:32.337 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:13:51.263 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:13:56.317 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:14:07.223 [INFO][725.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 1c33910b
+200211 19:14:07.707 [INFO][725.Warp.logStats] Warp: stats - rx:293.6 MB;tx:4.4 MB;rtt:19ms;loss:0.0%
+200211 19:14:20.727 [INFO][725.Tunnel.checkLastWriteTime] Time since last send: 24.409313917160034
+200211 19:14:20.729 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:14:20.748 [INFO][725.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:14:20.748 [INFO][725.Warp.log_func] BoringTun: [Debug] 1c33910d <--> 4b460d
+200211 19:14:20.751 [INFO][725.Warp.log_func] BoringTun: [Debug] Current session is now: 1c33910d
+200211 19:14:20.751 [INFO][725.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:14:21.357 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:14:40.806 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:14:45.250 [INFO][725.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:15:06.140 [ERROR][725.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=22 "Restart toggle activated" (code 22)
+200211 19:15:06.690 [INFO][753..init(with:)] Log started, build: 4.5.6be62884
+200211 19:15:06.709 [INFO][753.Tunnel.startTunnel] Tunnel started with options: ["VendorData": {
+    "captive_portal_detection_url" = "https://cp.cloudflare.com";
+    "configuration_version" = 1911252200;
+    "dns_logs_enabled" = 1;
+    "dns_protocol" = auto;
+    "domains_always_resolved_using_fallback_resolvers" =     (
+        "ipv4only.arpa",
+        "cp.cloudflare.com",
+        "orbilogin.com",
+        "orbilogin.net",
+        "routerlogin.net",
+        wpad,
+        local,
+        localhost,
+        "home.arpa",
+        invalid,
+        onion,
+        test,
+        lan,
+        intranet,
+        internal,
+        private,
+        home,
+        corp,
+        "10.in-addr.arpa",
+        "16.172.in-addr.arpa",
+        "17.172.in-addr.arpa",
+        "18.172.in-addr.arpa",
+        "19.172.in-addr.arpa",
+        "20.172.in-addr.arpa",
+        "21.172.in-addr.arpa",
+        "22.172.in-addr.arpa",
+        "23.172.in-addr.arpa",
+        "24.172.in-addr.arpa",
+        "25.172.in-addr.arpa",
+        "26.172.in-addr.arpa",
+        "27.172.in-addr.arpa",
+        "28.172.in-addr.arpa",
+        "29.172.in-addr.arpa",
+        "30.172.in-addr.arpa",
+        "31.172.in-addr.arpa",
+        "168.192.in-addr.arpa",
+        "0.in-addr.arpa",
+        "127.in-addr.arpa",
+        "254.169.in-addr.arpa",
+        "2.0.192.in-addr.arpa",
+        "100.51.198.in-addr.arpa",
+        "113.0.203.in-addr.arpa",
+        "255.255.255.255.in-addr.arpa",
+        "64.100.in-addr.arpa",
+        "65.100.in-addr.arpa",
+        "66.100.in-addr.arpa",
+        "67.100.in-addr.arpa",
+        "68.100.in-addr.arpa",
+        "69.100.in-addr.arpa",
+        "70.100.in-addr.arpa",
+        "71.100.in-addr.arpa",
+        "72.100.in-addr.arpa",
+        "73.100.in-addr.arpa",
+        "74.100.in-addr.arpa",
+        "75.100.in-addr.arpa",
+        "76.100.in-addr.arpa",
+        "77.100.in-addr.arpa",
+        "78.100.in-addr.arpa",
+        "79.100.in-addr.arpa",
+        "80.100.in-addr.arpa",
+        "81.100.in-addr.arpa",
+        "82.100.in-addr.arpa",
+        "83.100.in-addr.arpa",
+        "84.100.in-addr.arpa",
+        "85.100.in-addr.arpa",
+        "86.100.in-addr.arpa",
+        "87.100.in-addr.arpa",
+        "88.100.in-addr.arpa",
+        "89.100.in-addr.arpa",
+        "90.100.in-addr.arpa",
+        "91.100.in-addr.arpa",
+        "92.100.in-addr.arpa",
+        "93.100.in-addr.arpa",
+        "94.100.in-addr.arpa",
+        "95.100.in-addr.arpa",
+        "96.100.in-addr.arpa",
+        "97.100.in-addr.arpa",
+        "98.100.in-addr.arpa",
+        "99.100.in-addr.arpa",
+        "100.100.in-addr.arpa",
+        "101.100.in-addr.arpa",
+        "102.100.in-addr.arpa",
+        "103.100.in-addr.arpa",
+        "104.100.in-addr.arpa",
+        "105.100.in-addr.arpa",
+        "106.100.in-addr.arpa",
+        "107.100.in-addr.arpa",
+        "108.100.in-addr.arpa",
+        "109.100.in-addr.arpa",
+        "110.100.in-addr.arpa",
+        "111.100.in-addr.arpa",
+        "112.100.in-addr.arpa",
+        "113.100.in-addr.arpa",
+        "114.100.in-addr.arpa",
+        "115.100.in-addr.arpa",
+        "116.100.in-addr.arpa",
+        "117.100.in-addr.arpa",
+        "118.100.in-addr.arpa",
+        "119.100.in-addr.arpa",
+        "120.100.in-addr.arpa",
+        "121.100.in-addr.arpa",
+        "122.100.in-addr.arpa",
+        "123.100.in-addr.arpa",
+        "124.100.in-addr.arpa",
+        "125.100.in-addr.arpa",
+        "126.100.in-addr.arpa",
+        "127.100.in-addr.arpa",
+        "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "d.f.ip6.arpa",
+        "8.e.f.ip6.arpa",
+        "9.e.f.ip6.arpa",
+        "a.e.f.ip6.arpa",
+        "b.e.f.ip6.arpa",
+        "8.b.d.0.1.0.0.2.ip6.arpa"
+    );
+    "nonexistent_domains" =     (
+        "nonexistent.cloudflare.com"
+    );
+    "tunnel_mode" = 1;
+    "unsupported_cellular_networks" =     (
+                {
+            mcc = 302;
+            mnc = 720;
+            name = Rogers;
+        },
+                {
+            mcc = 302;
+            mnc = 370;
+            name = fido;
+        }
+    );
+    "use_fallback_resolvers_for_non_existent_domains" = 1;
+    "warp_config" =     {
+        clientId = Isrj;
+        excludeList =         (
+                        {
+                name = LAN;
+                networks =                 {
+                    v4 =                     (
+                                                {
+                            address = "10.0.0.0";
+                            netmask = "255.0.0.0";
+                        },
+                                                {
+                            address = "100.64.0.0";
+                            netmask = "255.192.0.0";
+                        },
+                                                {
+                            address = "169.254.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "172.16.0.0";
+                            netmask = "255.240.0.0";
+                        },
+                                                {
+                            address = "192.0.0.0";
+                            netmask = "255.255.255.0";
+                        },
+                                                {
+                            address = "192.168.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "224.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "240.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "255.255.255.255";
+                            netmask = "255.255.255.255";
+                        }
+                    );
+                    v6 =                     (
+                    );
+                };
+                visible = 0;
+            }
+        );
+        interface =         {
+            addresses =             {
+                v4 = "172.16.0.2";
+                v6 = "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc";
+            };
+        };
+        peers =         (
+                        {
+                endpoint =                 {
+                    host = "engage.cloudflareclient.com:2408";
+                    v4 = "162.159.192.9:2408";
+                    v6 = "[2606:4700:d0::a29f:c009]:2408";
+                };
+                publicKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+            }
+        );
+        services =         {
+            httpProxy = "172.16.0.1:2480";
+        };
+    };
+    "warp_config_hash" = 81c8010876d4eb4e529db92791317ee8;
+    "warp_enabled" = 1;
+    "warp_update_build_number" = 1911252200;
+}, "ServerAddress": cloudflare-dns.com, "AuthMethod": Password, "match-hostname": itunes.apple.com, "is-on-demand": 1]
+200211 19:15:06.710 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 19:15:06.711 [INFO][753.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200211 19:15:06.711 [INFO][753.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200211 19:15:06.718 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-02-11 16:59:50 +0000, routingId: [34, 202, 227], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.9:2408", v6: "[2606:4700:d0::a29f:c009]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200211 19:15:06.718 [INFO][753.Tunnel.startTunnel] Configuration age: 135.3 minutes
+200211 19:15:06.718 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:15:06.718 [INFO][753.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200211 19:15:06.719 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:15:06.719 [INFO][753.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200211 19:15:06.719 [INFO][753.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200211 19:15:06.726 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 19:15:06.727 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 19:15:06.727 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:15:06.727 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:15:06.727 [INFO][753.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: fc0d0838-1942-4e7a-9733-2a53f04845a3 - Public Key: c82c83d9ba7e1638c3d57e7a5e6aa5fe17c9c00c78ae052a1b094c156c778266 - Warp: true - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200211 19:15:06.730 [INFO][753.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200211 19:15:06.910 [INFO][753.Tunnel.waitForPathSatisfied] path updated ...
+200211 19:15:06.910 [INFO][753.Tunnel.updateSettingsAndConnect] path is satisfied
+200211 19:15:06.912 [INFO][753.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 10D7222E-B869-40DF-8800-EC886BDA700A
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 1
+    interfaceOption = en0 : 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 11
+        mtu = 1500
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {192.168.1.1:0
+        },
+        {24.108.164.60:0
+        },
+    )
+    dnsSearchDomains = (
+        MyRouter,
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+            description = MultiStack
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 4DE414BB-C6C9-F05F-7764-06536A6FE7B9
+            description = ProxyAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 5C883CD9-C071-FCAE-9F5B-DDDDB793BC0D
+            description = DNSAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = NetworkExtension
+            type = SessionManager
+            UUID = D4DCF250-6843-477F-846E-F26042957FDA
+            description = NetworkExtension: SessionManager
+            isActive = NO
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = YES
+            isSpecificUseOnly = NO
+            isNetworkProvider = YES
+            isNexusProvider = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200211 19:15:06.915 [INFO][753.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200211 19:15:06.917 [INFO][753.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200211 19:15:12.925 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 19:15:13.458 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 19:15:13.939 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 19:15:13.942 [INFO][753.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): Captive portal detected
+200211 19:15:19.949 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 19:15:20.491 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 19:15:21.041 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 19:15:21.041 [INFO][753.NetworkInfo.collectNetworkInfo] Captive portal status (2nd attempt): Captive portal detected
+200211 19:15:21.058 [INFO][753.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200211 19:15:21.076 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 19:15:21.080 [INFO][753.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot_worker.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: nil, accountType: _1dot1dot1dot_worker.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-02-11 16:59:50 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200211 19:15:21.094 [ERROR][753.Tunnel.updateNetwork] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 19:15:21.094 [ERROR][753.Tunnel.updateSettingsAndConnect] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 19:15:21.123 [INFO][753.Tunnel.handleAppMessage] getTunnelStatus
+200211 19:15:21.127 [INFO][753.Tunnel.handleAppMessage] getTunnelStatus
+200211 19:15:21.464 [INFO][753.Tunnel.handleAppMessage] getTunnelStatus
+200211 19:15:54.086 [INFO][753.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 19:16:00.095 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 19:16:00.643 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 19:16:01.186 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 19:16:31.308 [INFO][753.Tunnel.waitCaptivePortalResolution] captive portal check
+200211 19:16:31.444 [INFO][753.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200211 19:16:31.445 [ERROR][753.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 19:16:32.095 [INFO][762..init(with:)] Log started, build: 4.5.6be62884
+200211 19:16:32.118 [INFO][762.Tunnel.startTunnel] Tunnel started with options: ["is-on-demand": 1, "ServerAddress": cloudflare-dns.com, "AuthMethod": Password, "VendorData": {
+    "captive_portal_detection_url" = "https://cp.cloudflare.com";
+    "configuration_version" = 1911252200;
+    "dns_logs_enabled" = 1;
+    "dns_protocol" = auto;
+    "domains_always_resolved_using_fallback_resolvers" =     (
+        "ipv4only.arpa",
+        "cp.cloudflare.com",
+        "orbilogin.com",
+        "orbilogin.net",
+        "routerlogin.net",
+        wpad,
+        local,
+        localhost,
+        "home.arpa",
+        invalid,
+        onion,
+        test,
+        lan,
+        intranet,
+        internal,
+        private,
+        home,
+        corp,
+        "10.in-addr.arpa",
+        "16.172.in-addr.arpa",
+        "17.172.in-addr.arpa",
+        "18.172.in-addr.arpa",
+        "19.172.in-addr.arpa",
+        "20.172.in-addr.arpa",
+        "21.172.in-addr.arpa",
+        "22.172.in-addr.arpa",
+        "23.172.in-addr.arpa",
+        "24.172.in-addr.arpa",
+        "25.172.in-addr.arpa",
+        "26.172.in-addr.arpa",
+        "27.172.in-addr.arpa",
+        "28.172.in-addr.arpa",
+        "29.172.in-addr.arpa",
+        "30.172.in-addr.arpa",
+        "31.172.in-addr.arpa",
+        "168.192.in-addr.arpa",
+        "0.in-addr.arpa",
+        "127.in-addr.arpa",
+        "254.169.in-addr.arpa",
+        "2.0.192.in-addr.arpa",
+        "100.51.198.in-addr.arpa",
+        "113.0.203.in-addr.arpa",
+        "255.255.255.255.in-addr.arpa",
+        "64.100.in-addr.arpa",
+        "65.100.in-addr.arpa",
+        "66.100.in-addr.arpa",
+        "67.100.in-addr.arpa",
+        "68.100.in-addr.arpa",
+        "69.100.in-addr.arpa",
+        "70.100.in-addr.arpa",
+        "71.100.in-addr.arpa",
+        "72.100.in-addr.arpa",
+        "73.100.in-addr.arpa",
+        "74.100.in-addr.arpa",
+        "75.100.in-addr.arpa",
+        "76.100.in-addr.arpa",
+        "77.100.in-addr.arpa",
+        "78.100.in-addr.arpa",
+        "79.100.in-addr.arpa",
+        "80.100.in-addr.arpa",
+        "81.100.in-addr.arpa",
+        "82.100.in-addr.arpa",
+        "83.100.in-addr.arpa",
+        "84.100.in-addr.arpa",
+        "85.100.in-addr.arpa",
+        "86.100.in-addr.arpa",
+        "87.100.in-addr.arpa",
+        "88.100.in-addr.arpa",
+        "89.100.in-addr.arpa",
+        "90.100.in-addr.arpa",
+        "91.100.in-addr.arpa",
+        "92.100.in-addr.arpa",
+        "93.100.in-addr.arpa",
+        "94.100.in-addr.arpa",
+        "95.100.in-addr.arpa",
+        "96.100.in-addr.arpa",
+        "97.100.in-addr.arpa",
+        "98.100.in-addr.arpa",
+        "99.100.in-addr.arpa",
+        "100.100.in-addr.arpa",
+        "101.100.in-addr.arpa",
+        "102.100.in-addr.arpa",
+        "103.100.in-addr.arpa",
+        "104.100.in-addr.arpa",
+        "105.100.in-addr.arpa",
+        "106.100.in-addr.arpa",
+        "107.100.in-addr.arpa",
+        "108.100.in-addr.arpa",
+        "109.100.in-addr.arpa",
+        "110.100.in-addr.arpa",
+        "111.100.in-addr.arpa",
+        "112.100.in-addr.arpa",
+        "113.100.in-addr.arpa",
+        "114.100.in-addr.arpa",
+        "115.100.in-addr.arpa",
+        "116.100.in-addr.arpa",
+        "117.100.in-addr.arpa",
+        "118.100.in-addr.arpa",
+        "119.100.in-addr.arpa",
+        "120.100.in-addr.arpa",
+        "121.100.in-addr.arpa",
+        "122.100.in-addr.arpa",
+        "123.100.in-addr.arpa",
+        "124.100.in-addr.arpa",
+        "125.100.in-addr.arpa",
+        "126.100.in-addr.arpa",
+        "127.100.in-addr.arpa",
+        "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "d.f.ip6.arpa",
+        "8.e.f.ip6.arpa",
+        "9.e.f.ip6.arpa",
+        "a.e.f.ip6.arpa",
+        "b.e.f.ip6.arpa",
+        "8.b.d.0.1.0.0.2.ip6.arpa"
+    );
+    "nonexistent_domains" =     (
+        "nonexistent.cloudflare.com"
+    );
+    "tunnel_mode" = 1;
+    "unsupported_cellular_networks" =     (
+                {
+            mcc = 302;
+            mnc = 720;
+            name = Rogers;
+        },
+                {
+            mcc = 302;
+            mnc = 370;
+            name = fido;
+        }
+    );
+    "use_fallback_resolvers_for_non_existent_domains" = 1;
+    "warp_config" =     {
+        clientId = Isrj;
+        excludeList =         (
+                        {
+                name = LAN;
+                networks =                 {
+                    v4 =                     (
+                                                {
+                            address = "10.0.0.0";
+                            netmask = "255.0.0.0";
+                        },
+                                                {
+                            address = "100.64.0.0";
+                            netmask = "255.192.0.0";
+                        },
+                                                {
+                            address = "169.254.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "172.16.0.0";
+                            netmask = "255.240.0.0";
+                        },
+                                                {
+                            address = "192.0.0.0";
+                            netmask = "255.255.255.0";
+                        },
+                                                {
+                            address = "192.168.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "224.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "240.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "255.255.255.255";
+                            netmask = "255.255.255.255";
+                        }
+                    );
+                    v6 =                     (
+                    );
+                };
+                visible = 0;
+            }
+        );
+        interface =         {
+            addresses =             {
+                v4 = "172.16.0.2";
+                v6 = "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc";
+            };
+        };
+        peers =         (
+                        {
+                endpoint =                 {
+                    host = "engage.cloudflareclient.com:2408";
+                    v4 = "162.159.192.9:2408";
+                    v6 = "[2606:4700:d0::a29f:c009]:2408";
+                };
+                publicKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+            }
+        );
+        services =         {
+            httpProxy = "172.16.0.1:2480";
+        };
+    };
+    "warp_config_hash" = 81c8010876d4eb4e529db92791317ee8;
+    "warp_enabled" = 1;
+    "warp_update_build_number" = 1911252200;
+}, "match-hostname": apps.mzstatic.com]
+200211 19:16:32.119 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 19:16:32.119 [INFO][762.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200211 19:16:32.119 [INFO][762.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200211 19:16:32.127 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-02-11 16:59:50 +0000, routingId: [34, 202, 227], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.9:2408", v6: "[2606:4700:d0::a29f:c009]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200211 19:16:32.127 [INFO][762.Tunnel.startTunnel] Configuration age: 136.7 minutes
+200211 19:16:32.127 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:16:32.127 [INFO][762.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200211 19:16:32.128 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:16:32.128 [INFO][762.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200211 19:16:32.128 [INFO][762.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200211 19:16:32.135 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 19:16:32.136 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 19:16:32.136 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 19:16:32.136 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 19:16:32.137 [INFO][762.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: fc0d0838-1942-4e7a-9733-2a53f04845a3 - Public Key: c82c83d9ba7e1638c3d57e7a5e6aa5fe17c9c00c78ae052a1b094c156c778266 - Warp: true - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200211 19:16:32.140 [INFO][762.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200211 19:16:32.459 [INFO][762.Tunnel.waitForPathSatisfied] path updated ...
+200211 19:16:32.460 [INFO][762.Tunnel.updateSettingsAndConnect] path is satisfied
+200211 19:16:32.462 [INFO][762.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = E208C14C-E279-4C16-AD64-F520E7DA4D07
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 87
+    interfaceOption = en0 : 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 11
+        mtu = 1500
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {192.168.1.1:0
+        },
+        {24.108.164.60:0
+        },
+    )
+    dnsSearchDomains = (
+        MyRouter,
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = Persistent
+            type = Persistent
+            UUID = DA82A1FC-AD65-4291-AF99-B44E4D2435AF
+            description = Persistent interface guidance
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+            description = MultiStack
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 4DE414BB-C6C9-F05F-7764-06536A6FE7B9
+            description = ProxyAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 5C883CD9-C071-FCAE-9F5B-DDDDB793BC0D
+            description = DNSAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = NetworkExtension
+            type = SessionManager
+            UUID = D4DCF250-6843-477F-846E-F26042957FDA
+            description = NetworkExtension: SessionManager
+            isActive = NO
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = YES
+            isSpecificUseOnly = NO
+            isNetworkProvider = YES
+            isNexusProvider = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200211 19:16:32.463 [INFO][762.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200211 19:16:32.464 [INFO][762.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200211 19:16:32.593 [INFO][762.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200211 19:16:32.593 [INFO][762.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): ok
+200211 19:16:32.597 [INFO][762.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200211 19:16:32.620 [INFO][762.LogExtension.networkInfo] Cellular: [3 SE, MCC: 240, MNC: 02] - WiFi: [#Telia-523150 2c:79:d7:52:31:57] - NAT64: false - DNS search domains: ["MyRouter"] - Path DNS servers: ["192.168.1.1", "24.108.164.60"]
+200211 19:16:32.622 [INFO][762.Tunnel.updateNetwork] network settings created: {
+    tunnelRemoteAddress = ::1
+    DNSSettings = {
+        server = (
+            192.0.2.2,
+            192.0.2.3,
+            2001:db8:1111::2,
+            2001:db8:1111::3,
+        )
+        matchDomains = (
+            ,
+        )
+        matchDomainsNoSearch = NO
+    }
+    IPv4Settings = {
+        configMethod = PPP
+        addresses = (
+            192.0.2.1,
+        )
+        subnetMasks = (
+            255.255.255.255,
+        )
+        includedRoutes = (
+            {
+                destinationAddress = 0.0.0.0
+                destinationSubnetMask = 0.0.0.0
+            },
+        )
+        excludedRoutes = (
+            {
+                destinationAddress = 192.0.2.1
+                destinationSubnetMask = 255.255.255.255
+            },
+            {
+                destinationAddress = 10.0.0.0
+                destinationSubnetMask = 255.0.0.0
+            },
+            {
+                destinationAddress = 100.64.0.0
+                destinationSubnetMask = 255.192.0.0
+            },
+            {
+                destinationAddress = 169.254.0.0
+                destinationSubnetMask = 255.255.0.0
+            },
+            {
+                destinationAddress = 172.16.0.0
+                destinationSubnetMask = 255.240.0.0
+            },
+            {
+                destinationAddress = 192.0.0.0
+                destinationSubnetMask = 255.255.255.0
+            },
+            {
+                destinationAddress = 192.168.0.0
+                destinationSubnetMask = 255.255.0.0
+            },
+            {
+                destinationAddress = 224.0.0.0
+                destinationSubnetMask = 240.0.0.0
+            },
+            {
+                destinationAddress = 240.0.0.0
+                destinationSubnetMask = 240.0.0.0
+            },
+            {
+                destinationAddress = 255.255.255.255
+                destinationSubnetMask = 255.255.255.255
+            },
+        )
+        overridePrimary = NO
+    }
+    IPv6Settings = {
+        configMethod = automatic
+        addresses = (
+            fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc,
+        )
+        networkPrefixLengths = (
+            120,
+        )
+        includedRoutes = (
+            {
+                destinationAddress = ::
+                destinationNetworkPrefixLength = 0
+            },
+        )
+        excludedRoutes = (
+            {
+                destinationAddress = fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc
+                destinationNetworkPrefixLength = 128
+            },
+        )
+    }
+    MTU = 1280
+}
+200211 19:16:32.747 [INFO][762.Tunnel.updateNetwork] settings successfully applied
+200211 19:16:32.748 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 19:16:32.750 [INFO][762.DNS.dnsOverWarpResolvers] DNS over Warp; ["162.159.36.1", "162.159.46.1", "2606:4700:4700::1111", "2606:4700:4700::1001"]
+200211 19:16:32.750 [INFO][762.DNS.updateResolvers] Path DNS; ["192.168.1.1", "24.108.164.60"]
+200211 19:16:32.750 [INFO][762.Tunnel.warpConnect] Warp: connecting
+200211 19:16:32.759 [INFO][762.LogExtension.networkInfo] Cellular: [3 SE, MCC: 240, MNC: 02] - WiFi: [#Telia-523150 2c:79:d7:52:31:57] - Path DNS servers: ["192.168.1.1", "24.108.164.60"]
+200211 19:16:32.761 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs sessions created
+200211 19:16:32.762 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer registered for IPv6
+200211 19:16:32.763 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - is viable
+200211 19:16:32.763 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv6 state changed to: UDPSessionStateWaiting (The session is waiting for better conditions before attempting to make the session ready))
+200211 19:16:32.763 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Path - status: satisfied, expensive: false, ipv4: true, ipv6: false
+200211 19:16:32.764 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer registered for IPv4
+200211 19:16:32.766 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:16:32.767 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - send OK
+200211 19:16:32.779 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs for IPv4 - received reply
+200211 19:16:32.779 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:16:32.780 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b01 <--> 4b4610
+200211 19:16:32.781 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b01
+200211 19:16:32.782 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:16:32.808 [INFO][762.WarpLegacyUDPSession.happyEyeballs] Warp: happy eyeballs racer for IPv4 won the race
+200211 19:16:32.809 [INFO][762.WarpLegacyUDPSession.logLocalEndpoint] Warp: 192.168.1.65:64380 --> 162.159.192.9:2408
+200211 19:16:32.810 [INFO][762.WarpLegacyUDPSession.logLocalEndpoint] Warp: Connected to 162.159.192.9:2408 using local endpoint 192.168.1.65:64380 over wifi interface
+200211 19:16:32.811 [INFO][762.Warp.startWireGuardTimer] Warp: Timer started
+200211 19:16:33.494 [INFO][762.Warp.logStats] Warp: stats - rx:29 KB;tx:8 KB;rtt:15ms;loss:0.0%
+200211 19:16:52.766 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 55129; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:16:52.782 [ERROR][762.DNSOverUDPResolver.handleDnsResponse] Error Domain=_1dot1dot1dot_worker.UDPResolverError Code=0 "queryNotFoundForResponse" (code 0)
+200211 19:16:56.537 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.473246097564697
+200211 19:16:56.542 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:17:01.557 [INFO][762.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_TIMEOUT)
+200211 19:17:01.558 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:17:01.576 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:17:01.576 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b03 <--> 4b4611
+200211 19:17:01.576 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b03
+200211 19:17:01.577 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:17:01.870 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:17:25.514 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:17:30.304 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 20232; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:30.304 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 22646; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:30.306 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 49462; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:30.306 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 57279; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:30.308 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 11237; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:30.308 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:31.306 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 20232; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:31.306 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 22646; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:31.307 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 22646; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:31.309 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:31.310 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.320 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 22646; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.320 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.320 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.417 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 43073; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.418 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 42091; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.422 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 20791; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.423 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 1961; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:33.569 [INFO][762.Warp.logStats] Warp: stats - rx:338.3 MB;tx:4.1 MB;rtt:18ms;loss:0.13854057%
+200211 19:17:34.331 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 50653; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:34.421 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 43073; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:34.423 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 1961; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:40.712 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 11155; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:40.713 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 45144; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:17:49.561 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.04749596118927
+200211 19:17:49.562 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:17:49.578 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:17:49.579 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b04 <--> 4b4612
+200211 19:17:49.579 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b04
+200211 19:17:49.580 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:17:49.977 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:18:13.486 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:18:27.101 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 40496; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:18:27.120 [ERROR][762.DNSOverUDPResolver.handleDnsResponse] Error Domain=_1dot1dot1dot_worker.UDPResolverError Code=0 "queryNotFoundForResponse" (code 0)
+200211 19:18:33.555 [INFO][762.Warp.logStats] Warp: stats - rx:586 MB;tx:7.4 MB;rtt:17ms;loss:0.338785%
+200211 19:18:37.548 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.060719966888428
+200211 19:18:37.549 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:18:42.827 [INFO][762.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_TIMEOUT)
+200211 19:18:42.828 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:18:42.844 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:18:42.844 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b06 <--> 4b4613
+200211 19:18:42.845 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b06
+200211 19:18:42.845 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:18:43.516 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:19:07.542 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.025054931640625
+200211 19:19:07.543 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:19:07.560 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:19:07.560 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b07 <--> 4b4614
+200211 19:19:07.561 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b07
+200211 19:19:07.561 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:19:07.863 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:19:31.473 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:19:32.553 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b01
+200211 19:19:33.370 [INFO][762.Warp.logStats] Warp: stats - rx:699.8 MB;tx:8.8 MB;rtt:18ms;loss:0.17743483%
+200211 19:19:55.399 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:20:01.551 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b03
+200211 19:20:19.438 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.026777982711792
+200211 19:20:19.445 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:20:19.456 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:20:19.456 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b08 <--> 4b4615
+200211 19:20:19.457 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b08
+200211 19:20:19.457 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:20:20.010 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:20:33.344 [INFO][762.Warp.logStats] Warp: stats - rx:740.8 MB;tx:9.6 MB;rtt:11ms;loss:0.038452003%
+200211 19:20:43.555 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:20:49.501 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b04
+200211 19:21:07.440 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:21:31.558 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.117177963256836
+200211 19:21:31.560 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:21:31.571 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:21:31.571 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b09 <--> 4b4616
+200211 19:21:31.572 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b09
+200211 19:21:31.572 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:21:32.015 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:21:33.440 [INFO][762.Warp.logStats] Warp: stats - rx:1.01 GB;tx:13 MB;rtt:12ms;loss:0.08179486%
+200211 19:21:42.357 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b06
+200211 19:21:55.450 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:22:07.384 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b07
+200211 19:22:15.423 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:22:19.332 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:22:33.360 [INFO][762.Warp.logStats] Warp: stats - rx:1.01 GB;tx:13 MB;rtt:12ms;loss:0.080643594%
+200211 19:22:39.466 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:22:43.350 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:23:02.409 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:23:07.504 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:23:19.382 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b08
+200211 19:23:31.517 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.01302993297577
+200211 19:23:31.518 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:23:31.536 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:23:31.536 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0a <--> 4b4617
+200211 19:23:31.537 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0a
+200211 19:23:31.537 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:23:32.057 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:23:33.361 [INFO][762.Warp.logStats] Warp: stats - rx:1.01 GB;tx:13 MB;rtt:18ms;loss:0.0%
+200211 19:23:55.519 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:24:19.441 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:24:31.472 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b09
+200211 19:24:33.547 [INFO][762.Warp.logStats] Warp: stats - rx:1.01 GB;tx:13 MB;rtt:18ms;loss:0.0%
+200211 19:24:43.417 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:25:07.427 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.009469985961914
+200211 19:25:07.428 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:25:07.458 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:25:07.458 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0b <--> 4b4618
+200211 19:25:07.459 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0b
+200211 19:25:07.459 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:25:07.971 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:25:31.432 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:25:33.382 [INFO][762.Warp.logStats] Warp: stats - rx:1.01 GB;tx:13 MB;rtt:31ms;loss:0.0%
+200211 19:25:50.451 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:25:55.557 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:26:18.294 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 55735; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:26:19.131 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 55735; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:26:19.131 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 55735; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:26:19.551 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:26:21.142 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 55735; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:26:31.491 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0a
+200211 19:26:33.497 [INFO][762.Warp.logStats] Warp: stats - rx:1.02 GB;tx:13.5 MB;rtt:31ms;loss:0.0%
+200211 19:26:43.539 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:27:07.560 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.019537091255188
+200211 19:27:07.562 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:27:07.580 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:27:07.580 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0c <--> 4b4619
+200211 19:27:07.581 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0c
+200211 19:27:07.581 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:27:08.001 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:27:31.549 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:27:33.329 [INFO][762.Warp.logStats] Warp: stats - rx:1.02 GB;tx:13.6 MB;rtt:18ms;loss:0.0%
+200211 19:27:55.452 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:28:07.414 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0b
+200211 19:28:14.507 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:28:19.444 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:28:33.549 [INFO][762.Warp.logStats] Warp: stats - rx:1.02 GB;tx:13.6 MB;rtt:18ms;loss:0.0%
+200211 19:28:43.545 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.101055026054382
+200211 19:28:43.546 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:28:43.557 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:28:43.557 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0d <--> 4b461a
+200211 19:28:43.558 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0d
+200211 19:28:43.558 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:28:43.950 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:29:07.464 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:29:31.540 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.072399020195007
+200211 19:29:31.543 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:29:31.555 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:29:31.555 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0e <--> 4b461b
+200211 19:29:31.556 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0e
+200211 19:29:31.556 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:29:32.055 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:29:33.469 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.1 MB;rtt:14ms;loss:0.21777749%
+200211 19:29:55.540 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:30:07.436 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0c
+200211 19:30:19.332 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:30:33.338 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.1 MB;rtt:14ms;loss:0.23592561%
+200211 19:30:38.488 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:30:43.399 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:31:07.428 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.028849959373474
+200211 19:31:07.429 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:31:07.448 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:31:07.448 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b0f <--> 4b461c
+200211 19:31:07.449 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b0f
+200211 19:31:07.449 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:31:08.015 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:31:31.524 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:31:33.364 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.1 MB;rtt:19ms;loss:0.0725925%
+200211 19:31:43.510 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0d
+200211 19:31:55.447 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:32:19.485 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.036506056785583
+200211 19:32:19.486 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:32:19.506 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:32:19.506 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b10 <--> 4b461d
+200211 19:32:19.507 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b10
+200211 19:32:19.507 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:32:19.857 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:32:31.353 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0e
+200211 19:32:33.370 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.1 MB;rtt:21ms;loss:0.0%
+200211 19:32:43.561 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:33:07.550 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:33:31.362 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:33:33.560 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.2 MB;rtt:21ms;loss:0.0%
+200211 19:33:55.398 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.03597104549408
+200211 19:33:55.399 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:33:55.411 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:33:55.411 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b11 <--> 4b461e
+200211 19:33:55.411 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b11
+200211 19:33:55.412 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:33:56.046 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:34:07.509 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b0f
+200211 19:34:19.558 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:34:33.547 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.3 MB;rtt:12ms;loss:0.0%
+200211 19:34:43.469 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:35:07.419 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:35:19.417 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b10
+200211 19:35:31.348 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:35:33.454 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:14.5 MB;rtt:12ms;loss:0.0%
+200211 19:35:55.466 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.113378047943115
+200211 19:35:55.468 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:35:55.485 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:35:55.485 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b12 <--> 4b461f
+200211 19:35:55.486 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b12
+200211 19:35:55.486 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:35:55.980 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:36:19.498 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:36:33.563 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:15.5 MB;rtt:18ms;loss:0.0%
+200211 19:36:43.416 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:36:55.355 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b11
+200211 19:37:07.463 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.04535210132599
+200211 19:37:07.465 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:37:07.480 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:37:07.480 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b13 <--> 4b4620
+200211 19:37:07.481 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b13
+200211 19:37:07.481 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:37:07.870 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:37:31.515 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:37:33.471 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:15.5 MB;rtt:16ms;loss:0.0%
+200211 19:37:51.437 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:37:55.469 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:38:19.544 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.07130205631256
+200211 19:38:19.546 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:38:19.558 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:38:19.559 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b14 <--> 4b4621
+200211 19:38:19.560 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b14
+200211 19:38:19.560 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:38:19.971 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:38:33.329 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:15.6 MB;rtt:14ms;loss:0.0%
+200211 19:38:43.439 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:38:55.334 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b12
+200211 19:39:07.465 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.021228075027466
+200211 19:39:07.468 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:39:07.487 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:39:07.487 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b15 <--> 4b4622
+200211 19:39:07.488 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b15
+200211 19:39:07.488 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:39:07.872 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:39:31.372 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:39:33.455 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:16.5 MB;rtt:20ms;loss:0.0%
+200211 19:39:55.488 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.103295922279358
+200211 19:39:55.499 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:39:55.516 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:39:55.517 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b16 <--> 4b4623
+200211 19:39:55.517 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b16
+200211 19:39:55.517 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:39:55.893 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:40:07.562 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b13
+200211 19:40:19.563 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:40:33.363 [INFO][762.Warp.logStats] Warp: stats - rx:1.03 GB;tx:16.9 MB;rtt:21ms;loss:0.0%
+200211 19:40:43.407 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:41:07.394 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:41:19.444 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b14
+200211 19:41:31.334 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:41:33.463 [INFO][762.Warp.logStats] Warp: stats - rx:1.3 GB;tx:19.4 MB;rtt:21ms;loss:0.0057443976%
+200211 19:41:55.411 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.071326971054077
+200211 19:41:55.415 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:41:55.429 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:41:55.429 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b17 <--> 4b4624
+200211 19:41:55.430 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b17
+200211 19:41:55.430 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:41:55.899 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:42:07.385 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b15
+200211 19:42:19.488 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:42:33.458 [INFO][762.Warp.logStats] Warp: stats - rx:1.46 GB;tx:21.2 MB;rtt:14ms;loss:0.0013694167%
+200211 19:42:43.528 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.033967971801758
+200211 19:42:43.532 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:42:43.544 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:42:43.544 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b18 <--> 4b4625
+200211 19:42:43.545 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b18
+200211 19:42:43.545 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:42:43.853 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:42:55.498 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b16
+200211 19:43:07.386 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:43:31.337 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:43:33.338 [INFO][762.Warp.logStats] Warp: stats - rx:1.46 GB;tx:21.2 MB;rtt:13ms;loss:0.0%
+200211 19:43:55.348 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:44:19.487 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.134593963623047
+200211 19:44:19.490 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:44:19.501 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:44:19.501 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b19 <--> 4b4626
+200211 19:44:19.502 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b19
+200211 19:44:19.502 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:44:19.893 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:44:33.549 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:21.6 MB;rtt:12ms;loss:0.0%
+200211 19:44:43.483 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:44:55.331 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b17
+200211 19:45:07.399 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:45:31.492 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.088348031044006
+200211 19:45:31.497 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:45:31.508 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:45:31.509 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1a <--> 4b4627
+200211 19:45:31.510 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1a
+200211 19:45:31.510 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:45:32.058 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:45:33.395 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:22.1 MB;rtt:15ms;loss:0.0%
+200211 19:45:43.344 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b18
+200211 19:45:55.511 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:46:19.473 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:46:33.455 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:22.4 MB;rtt:15ms;loss:0.0%
+200211 19:46:43.420 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:47:07.560 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.137959957122803
+200211 19:47:07.564 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:47:07.575 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:47:07.575 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1b <--> 4b4628
+200211 19:47:07.576 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1b
+200211 19:47:07.576 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:47:08.022 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:47:19.544 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b19
+200211 19:47:31.374 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:47:33.533 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:22.6 MB;rtt:12ms;loss:0.0%
+200211 19:47:55.356 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:48:19.442 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.08049702644348
+200211 19:48:19.447 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:48:19.465 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:48:19.465 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1c <--> 4b4629
+200211 19:48:19.466 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1c
+200211 19:48:19.466 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:48:20.057 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:48:31.548 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1a
+200211 19:48:33.369 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:22.6 MB;rtt:21ms;loss:0.0%
+200211 19:48:43.477 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:48:54.691 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 63450; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:48:56.696 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 63450; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:48:57.700 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 63450; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:49:07.337 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:49:31.375 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.036960005760193
+200211 19:49:31.376 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:49:31.394 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:49:31.394 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1d <--> 4b462a
+200211 19:49:31.395 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1d
+200211 19:49:31.395 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:49:31.905 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:49:33.538 [INFO][762.Warp.logStats] Warp: stats - rx:1.47 GB;tx:22.8 MB;rtt:18ms;loss:0.0%
+200211 19:49:55.544 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:50:07.467 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1b
+200211 19:50:19.560 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.013753056526184
+200211 19:50:19.566 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:50:19.584 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:50:19.584 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1e <--> 4b462b
+200211 19:50:19.585 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1e
+200211 19:50:19.585 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:50:19.913 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:50:33.559 [INFO][762.Warp.logStats] Warp: stats - rx:1.48 GB;tx:23.2 MB;rtt:19ms;loss:0.0%
+200211 19:50:43.377 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:50:56.072 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:50:58.077 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:50:59.074 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:51:01.076 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:51:07.350 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:51:19.470 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1c
+200211 19:51:31.503 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.148833990097046
+200211 19:51:31.507 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:51:31.519 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:51:31.519 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b1f <--> 4b462c
+200211 19:51:31.520 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b1f
+200211 19:51:31.520 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:51:31.946 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:51:33.554 [INFO][762.Warp.logStats] Warp: stats - rx:1.85 GB;tx:26.6 MB;rtt:13ms;loss:0.0026945886%
+200211 19:51:55.546 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:52:05.837 [INFO][762.DNSOverUDPResolver.addQuery] Query timed out after 64.76 seconds: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:52:10.955 [INFO][762.DNSOverUDPResolver.addQuery] Query timed out after 5.12 seconds: id: 56343; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 19:52:19.518 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:52:31.335 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1d
+200211 19:52:33.535 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28 MB;rtt:13ms;loss:0.004197657%
+200211 19:52:43.413 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:53:07.384 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:53:19.380 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1e
+200211 19:53:31.479 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.093704104423523
+200211 19:53:31.479 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:53:33.478 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.1 MB;rtt:13ms;loss:0.0016987324%
+200211 19:53:36.952 [INFO][762.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_TIMEOUT)
+200211 19:53:36.953 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:53:36.971 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:53:36.971 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b21 <--> 4b462d
+200211 19:53:36.972 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b21
+200211 19:53:36.972 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:53:37.368 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:54:01.541 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.171461939811707
+200211 19:54:01.543 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:54:01.561 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:54:01.561 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b22 <--> 4b462e
+200211 19:54:01.562 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b22
+200211 19:54:01.562 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:54:01.999 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:54:25.376 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:54:31.337 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b1f
+200211 19:54:33.338 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.1 MB;rtt:19ms;loss:0.0%
+200211 19:54:49.477 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.100746035575867
+200211 19:54:49.478 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:54:49.496 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:54:49.496 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b23 <--> 4b462f
+200211 19:54:49.497 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b23
+200211 19:54:49.497 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:54:49.905 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:55:13.463 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:55:33.475 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.2 MB;rtt:18ms;loss:0.0%
+200211 19:55:37.435 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:56:01.395 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:56:25.545 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.145187973976135
+200211 19:56:25.547 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:56:25.565 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:56:25.565 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b24 <--> 4b4630
+200211 19:56:25.566 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b24
+200211 19:56:25.566 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:56:25.986 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:56:33.355 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.2 MB;rtt:18ms;loss:0.0%
+200211 19:56:36.334 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b21
+200211 19:56:49.339 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:57:01.518 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b22
+200211 19:57:13.340 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:57:33.528 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.2 MB;rtt:18ms;loss:0.0%
+200211 19:57:33.528 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:57:37.391 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:57:49.357 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b23
+200211 19:57:57.444 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:58:01.499 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:58:20.368 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 19:58:25.446 [INFO][762.Warp.log_func] BoringTun: [Debug] HANDSHAKE(REKEY_AFTER_TIME (on send))
+200211 19:58:25.455 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:58:25.473 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:58:25.473 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b25 <--> 4b4631
+200211 19:58:25.474 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b25
+200211 19:58:25.474 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:58:25.868 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:58:33.340 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.3 MB;rtt:18ms;loss:0.0%
+200211 19:58:49.410 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:59:13.514 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.102090001106262
+200211 19:59:13.516 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 19:59:13.531 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 19:59:13.531 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b26 <--> 4b4632
+200211 19:59:13.532 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b26
+200211 19:59:13.532 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 19:59:13.900 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 19:59:25.393 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b24
+200211 19:59:33.376 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.5 MB;rtt:16ms;loss:0.0%
+200211 19:59:37.484 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:00:01.334 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:00:25.445 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.101484894752502
+200211 20:00:25.450 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:00:25.467 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:00:25.468 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b27 <--> 4b4633
+200211 20:00:25.468 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b27
+200211 20:00:25.469 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:00:25.833 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:00:25.904 [INFO][762.Tunnel.sleep] 
+200211 20:06:08.492 [INFO][762.Tunnel.wake] 
+200211 20:06:08.500 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:06:08.500 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 342.6669819355011
+200211 20:06:08.501 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:06:08.558 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:06:08.558 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b28 <--> 29d701
+200211 20:06:08.559 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b28
+200211 20:06:08.559 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:06:09.272 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 28203; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:06:09.273 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 63094; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:06:15.373 [INFO][762.Warp.logStats] Warp: stats - rx:2 GB;tx:28.6 MB;rtt:57ms;loss:0.0%
+200211 20:06:31.036 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:06:54.914 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:07:06.856 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b25
+200211 20:07:11.407 [INFO][762.Tunnel.sleep] 
+200211 20:07:13.016 [INFO][762.Tunnel.wake] 
+200211 20:07:13.025 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:07:16.408 [INFO][762.Warp.logStats] Warp: stats - rx:2.24 GB;tx:30.9 MB;rtt:57ms;loss:0.12418216%
+200211 20:07:19.482 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.566347002983093
+200211 20:07:19.483 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:07:19.501 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:07:19.501 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b29 <--> 29d702
+200211 20:07:19.502 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b29
+200211 20:07:19.502 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:07:19.879 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:07:26.931 [INFO][762.Tunnel.sleep] 
+200211 20:07:30.208 [INFO][762.Tunnel.wake] 
+200211 20:07:30.209 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:07:39.016 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(KEEPALIVE_TIMEOUT)
+200211 20:07:40.657 [INFO][762.Tunnel.sleep] 
+200211 20:07:49.001 [INFO][762.Tunnel.wake] 
+200211 20:07:49.001 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:07:51.534 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:07:52.068 [INFO][762.Tunnel.sleep] 
+200211 20:08:01.640 [INFO][762.Tunnel.wake] 
+200211 20:08:01.641 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:08:04.730 [INFO][762.Tunnel.sleep] 
+200211 20:08:16.120 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_initiation
+200211 20:08:16.122 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_response
+200211 20:08:16.133 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2a
+200211 20:08:16.176 [INFO][762.Tunnel.wake] 
+200211 20:08:16.177 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:08:16.177 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.642180919647217
+200211 20:08:16.178 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:08:16.192 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:08:16.192 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b2b <--> 29d704
+200211 20:08:16.193 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2b
+200211 20:08:16.193 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:08:19.261 [INFO][762.Tunnel.sleep] 
+200211 20:09:26.978 [INFO][762.Tunnel.wake] 
+200211 20:09:26.978 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:09:26.979 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 70.80055606365204
+200211 20:09:26.979 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:09:26.990 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:09:26.991 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b2c <--> 29d705
+200211 20:09:26.992 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2c
+200211 20:09:26.992 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:09:30.029 [INFO][762.Tunnel.sleep] 
+200211 20:10:28.239 [INFO][762.Tunnel.wake] 
+200211 20:10:28.240 [INFO][762.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:10:28.240 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 61.26033699512482
+200211 20:10:28.241 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:10:28.252 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:10:28.252 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b2d <--> 29d706
+200211 20:10:28.253 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2d
+200211 20:10:28.253 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:10:28.929 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b26
+200211 20:10:41.043 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:10:50.205 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 969; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:10:51.882 [INFO][762.Warp.logStats] Warp: stats - rx:2.24 GB;tx:31.1 MB;rtt:12ms;loss:0.00049233553%
+200211 20:11:04.968 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:11:28.942 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:11:41.055 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b27
+200211 20:11:42.059 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b28
+200211 20:11:51.918 [INFO][762.Warp.logStats] Warp: stats - rx:2.25 GB;tx:31.8 MB;rtt:12ms;loss:0.0%
+200211 20:11:53.005 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.06209397315979
+200211 20:11:53.008 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:11:53.019 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:11:53.019 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b2e <--> 29d707
+200211 20:11:53.020 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2e
+200211 20:11:53.020 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:11:53.328 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:12:16.905 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:12:28.500 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 6861; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:12:29.495 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 6861; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:12:29.497 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 6861; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:12:31.505 [INFO][762.DNS.handleQueryResponse] Using fallback resolver for query: id: 6861; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:12:40.901 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:12:52.006 [INFO][762.Warp.logStats] Warp: stats - rx:2.25 GB;tx:32.6 MB;rtt:12ms;loss:0.0%
+200211 20:12:53.056 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b29
+200211 20:12:54.071 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 63672; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:12:54.084 [ERROR][762.DNSOverUDPResolver.handleDnsResponse] Error Domain=_1dot1dot1dot_worker.UDPResolverError Code=0 "queryNotFoundForResponse" (code 0)
+200211 20:13:04.899 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:13:19.881 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b2a
+200211 20:13:20.830 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b2b
+200211 20:13:24.887 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b2c
+200211 20:13:27.853 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b2d
+200211 20:13:28.838 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:13:51.848 [INFO][762.Warp.logStats] Warp: stats - rx:2.25 GB;tx:32.8 MB;rtt:12ms;loss:0.0%
+200211 20:13:52.988 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.149466037750244
+200211 20:13:52.990 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:13:53.008 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:13:53.009 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b2f <--> 29d708
+200211 20:13:53.009 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b2f
+200211 20:13:53.009 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:13:53.518 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:14:17.027 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:14:40.884 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:14:51.837 [INFO][762.Warp.logStats] Warp: stats - rx:2.25 GB;tx:32.8 MB;rtt:19ms;loss:0.0%
+200211 20:14:52.859 [INFO][762.Warp.log_func] BoringTun: [Debug] SESSION_EXPIRED(REJECT_AFTER_TIME), session: 4cd14b2e
+200211 20:15:04.985 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.100764989852905
+200211 20:15:04.986 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:15:05.061 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:15:05.061 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b30 <--> 29d709
+200211 20:15:05.062 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b30
+200211 20:15:05.062 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:15:05.334 [INFO][762.DNSOverUDPResolver.addQuery] Duplicate query: id: 16227; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200211 20:15:05.349 [ERROR][762.DNSOverUDPResolver.handleDnsResponse] Error Domain=_1dot1dot1dot_worker.UDPResolverError Code=0 "queryNotFoundForResponse" (code 0)
+200211 20:15:05.422 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:15:28.987 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:15:51.843 [INFO][762.Warp.logStats] Warp: stats - rx:2.25 GB;tx:32.8 MB;rtt:75ms;loss:0.0%
+200211 20:15:52.891 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:16:16.996 [INFO][762.Tunnel.checkLastWriteTime] Time since last send: 24.102195978164673
+200211 20:16:17.000 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending handshake_initiation
+200211 20:16:17.012 [INFO][762.Warp.log_func] BoringTun: [Debug] Received handshake_response
+200211 20:16:17.012 [INFO][762.Warp.log_func] BoringTun: [Debug] 4cd14b31 <--> 29d70a
+200211 20:16:17.013 [INFO][762.Warp.log_func] BoringTun: [Debug] Current session is now: 4cd14b31
+200211 20:16:17.013 [INFO][762.Warp.log_func] BoringTun: [Debug] Sending keepalive
+200211 20:16:17.482 [INFO][762.Warp.log_func] BoringTun: [Debug] KEEPALIVE(PERSISTENT_KEEPALIVE)
+200211 20:16:37.284 [ERROR][762.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=22 "Restart toggle activated" (code 22)
+200211 20:16:38.416 [INFO][1813..init(with:)] Log started, build: 4.5.6be62884
+200211 20:16:38.444 [INFO][1813.Tunnel.startTunnel] Tunnel started with options: ["AuthMethod": Password, "VendorData": {
+    "captive_portal_detection_url" = "https://cp.cloudflare.com";
+    "configuration_version" = 1911252200;
+    "dns_logs_enabled" = 1;
+    "dns_protocol" = auto;
+    "domains_always_resolved_using_fallback_resolvers" =     (
+        "ipv4only.arpa",
+        "cp.cloudflare.com",
+        "orbilogin.com",
+        "orbilogin.net",
+        "routerlogin.net",
+        wpad,
+        local,
+        localhost,
+        "home.arpa",
+        invalid,
+        onion,
+        test,
+        lan,
+        intranet,
+        internal,
+        private,
+        home,
+        corp,
+        "10.in-addr.arpa",
+        "16.172.in-addr.arpa",
+        "17.172.in-addr.arpa",
+        "18.172.in-addr.arpa",
+        "19.172.in-addr.arpa",
+        "20.172.in-addr.arpa",
+        "21.172.in-addr.arpa",
+        "22.172.in-addr.arpa",
+        "23.172.in-addr.arpa",
+        "24.172.in-addr.arpa",
+        "25.172.in-addr.arpa",
+        "26.172.in-addr.arpa",
+        "27.172.in-addr.arpa",
+        "28.172.in-addr.arpa",
+        "29.172.in-addr.arpa",
+        "30.172.in-addr.arpa",
+        "31.172.in-addr.arpa",
+        "168.192.in-addr.arpa",
+        "0.in-addr.arpa",
+        "127.in-addr.arpa",
+        "254.169.in-addr.arpa",
+        "2.0.192.in-addr.arpa",
+        "100.51.198.in-addr.arpa",
+        "113.0.203.in-addr.arpa",
+        "255.255.255.255.in-addr.arpa",
+        "64.100.in-addr.arpa",
+        "65.100.in-addr.arpa",
+        "66.100.in-addr.arpa",
+        "67.100.in-addr.arpa",
+        "68.100.in-addr.arpa",
+        "69.100.in-addr.arpa",
+        "70.100.in-addr.arpa",
+        "71.100.in-addr.arpa",
+        "72.100.in-addr.arpa",
+        "73.100.in-addr.arpa",
+        "74.100.in-addr.arpa",
+        "75.100.in-addr.arpa",
+        "76.100.in-addr.arpa",
+        "77.100.in-addr.arpa",
+        "78.100.in-addr.arpa",
+        "79.100.in-addr.arpa",
+        "80.100.in-addr.arpa",
+        "81.100.in-addr.arpa",
+        "82.100.in-addr.arpa",
+        "83.100.in-addr.arpa",
+        "84.100.in-addr.arpa",
+        "85.100.in-addr.arpa",
+        "86.100.in-addr.arpa",
+        "87.100.in-addr.arpa",
+        "88.100.in-addr.arpa",
+        "89.100.in-addr.arpa",
+        "90.100.in-addr.arpa",
+        "91.100.in-addr.arpa",
+        "92.100.in-addr.arpa",
+        "93.100.in-addr.arpa",
+        "94.100.in-addr.arpa",
+        "95.100.in-addr.arpa",
+        "96.100.in-addr.arpa",
+        "97.100.in-addr.arpa",
+        "98.100.in-addr.arpa",
+        "99.100.in-addr.arpa",
+        "100.100.in-addr.arpa",
+        "101.100.in-addr.arpa",
+        "102.100.in-addr.arpa",
+        "103.100.in-addr.arpa",
+        "104.100.in-addr.arpa",
+        "105.100.in-addr.arpa",
+        "106.100.in-addr.arpa",
+        "107.100.in-addr.arpa",
+        "108.100.in-addr.arpa",
+        "109.100.in-addr.arpa",
+        "110.100.in-addr.arpa",
+        "111.100.in-addr.arpa",
+        "112.100.in-addr.arpa",
+        "113.100.in-addr.arpa",
+        "114.100.in-addr.arpa",
+        "115.100.in-addr.arpa",
+        "116.100.in-addr.arpa",
+        "117.100.in-addr.arpa",
+        "118.100.in-addr.arpa",
+        "119.100.in-addr.arpa",
+        "120.100.in-addr.arpa",
+        "121.100.in-addr.arpa",
+        "122.100.in-addr.arpa",
+        "123.100.in-addr.arpa",
+        "124.100.in-addr.arpa",
+        "125.100.in-addr.arpa",
+        "126.100.in-addr.arpa",
+        "127.100.in-addr.arpa",
+        "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+        "d.f.ip6.arpa",
+        "8.e.f.ip6.arpa",
+        "9.e.f.ip6.arpa",
+        "a.e.f.ip6.arpa",
+        "b.e.f.ip6.arpa",
+        "8.b.d.0.1.0.0.2.ip6.arpa"
+    );
+    "nonexistent_domains" =     (
+        "nonexistent.cloudflare.com"
+    );
+    "tunnel_mode" = 1;
+    "unsupported_cellular_networks" =     (
+                {
+            mcc = 302;
+            mnc = 720;
+            name = Rogers;
+        },
+                {
+            mcc = 302;
+            mnc = 370;
+            name = fido;
+        }
+    );
+    "use_fallback_resolvers_for_non_existent_domains" = 1;
+    "warp_config" =     {
+        clientId = Isrj;
+        excludeList =         (
+                        {
+                name = LAN;
+                networks =                 {
+                    v4 =                     (
+                                                {
+                            address = "10.0.0.0";
+                            netmask = "255.0.0.0";
+                        },
+                                                {
+                            address = "100.64.0.0";
+                            netmask = "255.192.0.0";
+                        },
+                                                {
+                            address = "169.254.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "172.16.0.0";
+                            netmask = "255.240.0.0";
+                        },
+                                                {
+                            address = "192.0.0.0";
+                            netmask = "255.255.255.0";
+                        },
+                                                {
+                            address = "192.168.0.0";
+                            netmask = "255.255.0.0";
+                        },
+                                                {
+                            address = "224.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "240.0.0.0";
+                            netmask = "240.0.0.0";
+                        },
+                                                {
+                            address = "255.255.255.255";
+                            netmask = "255.255.255.255";
+                        }
+                    );
+                    v6 =                     (
+                    );
+                };
+                visible = 0;
+            }
+        );
+        interface =         {
+            addresses =             {
+                v4 = "172.16.0.2";
+                v6 = "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc";
+            };
+        };
+        peers =         (
+                        {
+                endpoint =                 {
+                    host = "engage.cloudflareclient.com:2408";
+                    v4 = "162.159.192.9:2408";
+                    v6 = "[2606:4700:d0::a29f:c009]:2408";
+                };
+                publicKey = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=";
+            }
+        );
+        services =         {
+            httpProxy = "172.16.0.1:2480";
+        };
+    };
+    "warp_config_hash" = 81c8010876d4eb4e529db92791317ee8;
+    "warp_enabled" = 1;
+    "warp_update_build_number" = 1911252200;
+}, "is-on-demand": 1, "ServerAddress": cloudflare-dns.com]
+200211 20:16:38.450 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200211 20:16:38.450 [INFO][1813.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200211 20:16:38.450 [INFO][1813.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200211 20:16:38.463 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-02-11 16:59:50 +0000, routingId: [34, 202, 227], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:879c:e1dd:181:4848:abfc"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.9:2408", v6: "[2606:4700:d0::a29f:c009]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200211 20:16:38.463 [INFO][1813.Tunnel.startTunnel] Configuration age: 196.8 minutes
+200211 20:16:38.464 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 20:16:38.468 [INFO][1813.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200211 20:16:38.469 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 20:16:38.469 [INFO][1813.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200211 20:16:38.484 [INFO][1813.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200211 20:16:38.519 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200211 20:16:38.520 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_dns_mode: auto
+200211 20:16:38.520 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200211 20:16:38.520 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200211 20:16:38.520 [INFO][1813.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: fc0d0838-1942-4e7a-9733-2a53f04845a3 - Public Key: c82c83d9ba7e1638c3d57e7a5e6aa5fe17c9c00c78ae052a1b094c156c778266 - Warp: true - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200211 20:16:38.523 [INFO][1813.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200211 20:16:38.676 [INFO][1813.Tunnel.waitForPathSatisfied] path updated ...
+200211 20:16:38.677 [INFO][1813.Tunnel.updateSettingsAndConnect] path is satisfied
+200211 20:16:38.680 [INFO][1813.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 9C3DFDF4-28E5-4BDB-B1FE-4A7B854D7823
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 1
+    interfaceOption = en0 : 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 11
+        mtu = 1500
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {192.168.1.1:0
+        },
+        {24.108.164.60:0
+        },
+    )
+    dnsSearchDomains = (
+        MyRouter,
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = 3C96CF26-3CFC-4A6F-B033-7BD1B5F4570D
+            description = MultiStack
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = NO
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 4DE414BB-C6C9-F05F-7764-06536A6FE7B9
+            description = ProxyAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 5C883CD9-C071-FCAE-9F5B-DDDDB793BC0D
+            description = DNSAgent-@en0
+            isActive = YES
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = NO
+            isSpecificUseOnly = NO
+            isNetworkProvider = NO
+            isNexusProvider = NO
+        },
+        {
+            domain = NetworkExtension
+            type = SessionManager
+            UUID = D4DCF250-6843-477F-846E-F26042957FDA
+            description = NetworkExtension: SessionManager
+            isActive = NO
+            isKernelActivated = NO
+            isUserActivated = YES
+            isVoluntary = YES
+            isSpecificUseOnly = NO
+            isNetworkProvider = YES
+            isNexusProvider = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200211 20:16:38.683 [INFO][1813.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200211 20:16:38.686 [INFO][1813.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200211 20:16:44.737 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 20:16:45.235 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 20:16:45.785 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 20:16:45.787 [INFO][1813.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): Captive portal detected
+200211 20:16:51.797 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200211 20:16:52.339 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200211 20:16:52.883 [INFO][1813.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200211 20:16:52.884 [INFO][1813.NetworkInfo.collectNetworkInfo] Captive portal status (2nd attempt): Captive portal detected
+200211 20:16:52.904 [INFO][1813.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200211 20:16:52.913 [INFO][1813.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200211 20:16:52.931 [ERROR][1813.Tunnel.updateNetwork] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 20:16:52.932 [ERROR][1813.Tunnel.updateSettingsAndConnect] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200211 20:16:53.262 [INFO][1813.Tunnel.handleAppMessage] getTunnelStatus
+200211 20:16:53.291 [INFO][1813.Tunnel.handleAppMessage] getTunnelStatus
+200211 20:16:53.301 [INFO][1813.Tunnel.handleAppMessage] getTunnelStatus
+200211 20:17:03.018 [INFO][1813.Tunnel.stopTunnel] stopping tunnel with reason: No specific reason.
